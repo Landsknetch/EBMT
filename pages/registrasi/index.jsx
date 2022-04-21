@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function Registration()
 {
@@ -24,13 +25,15 @@ export default function Registration()
             </svg>
 
             <div>
-              <button
-                type="button"
-                x-show="isLoginPage"
-                className="rounded-2xl border-b-2 border-b-gray-300 bg-white py-3 px-4 font-bold text-blue-500 ring-2 ring-gray-300 hover:bg-gray-200 active:translate-y-[0.125rem] active:border-b-gray-200"
-              >
-                LOGIN
-              </button>
+              <Link href="/login">
+                <button
+                  type="button"
+                  x-show="isLoginPage"
+                  className="rounded-2xl border-b-2 border-b-gray-300 bg-white py-3 px-4 font-bold text-blue-500 ring-2 ring-gray-300 hover:bg-gray-200 active:translate-y-[0.125rem] active:border-b-gray-200"
+                >
+                  LOGIN
+                </button>
+              </Link>
             </div>
           </header>
 

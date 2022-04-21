@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Login()
 {
   return(
@@ -21,13 +23,15 @@ export default function Login()
             </svg>
 
             <div>
-              <button
-                type="button"
-                x-show="!isLoginPage"
-                className="rounded-2xl border-b-2 border-b-gray-300 bg-white py-3 px-4 font-bold text-blue-500 ring-2 ring-gray-300 hover:bg-gray-200 active:translate-y-[0.125rem] active:border-b-gray-200"
-              >
+              <Link href="/registrasi">
+                <button
+                  type="button"
+                  x-show="!isLoginPage"
+                  className="rounded-2xl border-b-2 border-b-gray-300 bg-white py-3 px-4 font-bold text-blue-500 ring-2 ring-gray-300 hover:bg-gray-200 active:translate-y-[0.125rem] active:border-b-gray-200"
+                >
                 SIGN UP
-              </button>
+                </button>
+              </Link>
             </div>
           </header>
 
