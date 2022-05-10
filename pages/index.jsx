@@ -50,7 +50,7 @@ export default function Home() {
                     className="fill-current group-hover:text-sky-300"
                   ></path>
                 </svg>
-                <span className="-mr-1 font-medium">Dashboard</span>
+                <span className="-mr-1 font-medium">Dashboards</span>
               </a>
             </li>
             {/* <li>
