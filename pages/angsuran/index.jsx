@@ -37,7 +37,7 @@ export default function Angsuran()
           <ul className="space-y-2 tracking-wide mt-8">
             <li>
               <a
-                href="#"
+                href="/"
                 aria-label="dashboard"
                 className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
               >

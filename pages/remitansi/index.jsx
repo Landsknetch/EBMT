@@ -37,7 +37,7 @@ export default function Remitansi()
           <ul className="space-y-2 tracking-wide mt-8">
             <li>
               <a
-                href="#"
+                href="/"
                 aria-label="dashboard"
                 className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
               >
@@ -270,8 +270,8 @@ export default function Remitansi()
                       </div>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Dari Rekening Bank</label>
+                  <div className="form-group">
+                    <label htmlFor="inputPassword3">Dari Rekening Bank</label>
                     <div className="col-4">
                       <select className="custom-select">
                         <option>BNI</option>
@@ -296,8 +296,8 @@ export default function Remitansi()
                     <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Mata Uang Asing"/>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Negara Penerima</label>
+                  <div className="form-group">
+                    <label htmlFor="inputPassword3">Negara Penerima</label>
                     <div className="col-4">
                       <select className="custom-select">
                         <option>Australia</option>

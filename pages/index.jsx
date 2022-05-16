@@ -247,15 +247,23 @@ export default function Home() {
 
         <div className="px-6 pt-6 2xl:container">
           <div className="flex gap-5">
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
-              Pinjaman
-            </button>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
-              Remitansi
-            </button>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
-              Angsuran
-            </button>
+            <a href="/pinjaman">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
+                Pinjaman
+              </button>
+            </a>
+            
+            <a href="/remitansi">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
+                Remitansi
+              </button>
+            </a>
+            
+            <a href="/angsuran">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
+                Angsuran
+              </button>
+            </a>
           </div>
         </div>
       </div>
