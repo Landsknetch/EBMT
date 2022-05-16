@@ -258,11 +258,9 @@ export default function Remitansi()
               <form className="form-horizontal">
                 <div className="card-body">
 
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">No. ID/Passport</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="TGA80183128736128" />
-                    </div>
+                <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">No ID/Passport</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="TGA9312392810833"/>
                   </div>
 
                   <div className="form-group row">
@@ -283,25 +281,19 @@ export default function Remitansi()
                     </div>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Nomor Yang Bisa Dihubungi</label>
-                    <div className="col-sm-10">
-                      <input type="password" className="form-control" id="inputPassword3" placeholder="08xxxxxxxxxx"/>
-                    </div>
+                  <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">No Telpon Yang Bisa Dihubungi</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="09xxxxxxxx"/>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Nominal Uang</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="Nominal Rupiah"/>
-                    </div>
+                  <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">Nominal Uang</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Rupiah"/>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Atau Setara dengan</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="Nominal Mata Uang Asing"/>
-                    </div>
+                  <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">Atau Setara Dengan</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Mata Uang Asing"/>
                   </div>
 
                   <div className="form-group row">
@@ -326,18 +318,14 @@ export default function Remitansi()
                     </div>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Swift Code</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="Swift Codes"/>
-                    </div>
+                  <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">Swift Codes</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Swift Codes"/>
                   </div>
 
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">No. ID/Passport Penerima</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="TGA80183128736128" />
-                    </div>
+                  <div className="form-group">
+                    <label htmlFor="exampleInputEmail1">No ID/Passport</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="TGA1823908183"/>
                   </div>
 
                   <div className="form-group row">
