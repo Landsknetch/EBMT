@@ -308,7 +308,7 @@ export default function Remitansi()
                   </div>
 
                   <div className="form-group">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Rekening Bank Penerima</label>
+                    <label htmlFor="inputPassword3">Rekening Bank Penerima</label>
                     <div className="col-4">
                       <select className="custom-select">
                         <option>BRUSKY</option>
