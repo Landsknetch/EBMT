@@ -2,11 +2,10 @@ import Link from "next/link";
 import Head from "next/head";
 // import '../styles/adminlte.min.css';
 
-export default function Pinjaman()
-{
-  return(
-<>
-    {/* <Head>
+export default function Pinjaman() {
+  return (
+    <>
+      {/* <Head>
         <link rel="stylesheet" href="../styles/adminlte.min.css"/>
     </Head> */}
 
@@ -36,26 +35,31 @@ export default function Pinjaman()
 
           <ul className="space-y-2 tracking-wide mt-8">
             <li>
-              <Link
-                href="/"
-                aria-label="dashboard"
-                className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
-              >
-                <svg className="-ml-1 h-6 w-6" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M6 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8ZM6 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-1Z"
-                    className="fill-current text-cyan-400 dark:fill-slate-600"
-                  ></path>
-                  <path
-                    d="M13 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8Z"
-                    className="fill-current text-cyan-200 group-hover:text-cyan-300"
-                  ></path>
-                  <path
-                    d="M13 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1Z"
-                    className="fill-current group-hover:text-sky-300"
-                  ></path>
-                </svg>
-                <span className="-mr-1 font-medium">Dashboards</span>
+              <Link href="/">
+                <a
+                  aria-label="dashboard"
+                  className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
+                >
+                  <svg
+                    className="-ml-1 h-6 w-6"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M6 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8ZM6 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-1Z"
+                      className="fill-current text-cyan-400 dark:fill-slate-600"
+                    ></path>
+                    <path
+                      d="M13 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8Z"
+                      className="fill-current text-cyan-200 group-hover:text-cyan-300"
+                    ></path>
+                    <path
+                      d="M13 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1Z"
+                      className="fill-current group-hover:text-sky-300"
+                    ></path>
+                  </svg>
+                  <span className="-mr-1 font-medium">Dashboards</span>
+                </a>
               </Link>
             </li>
             {/* <li>
@@ -251,70 +255,124 @@ export default function Pinjaman()
         </div>
 
         <div className="px-6 pt-6 2xl:container">
-        <div className="card card-primary max-w-2xl">
-              <div className="card-header">
-                <h3 className="card-title">Quick Example</h3>
-              </div>
-              <form>
-                <div className="card-body">
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Besar Pinjaman</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Nominal Rupiah"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Untuk Keperluan</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Isi Form"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Angsuran Selama</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Berapa Bulan"/>
-                  </div>
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div className="form-group">
-                        <label>Dari (Hari/Bulan/Tahun)</label>
-                        <input type="text" className="form-control" placeholder="30/12/2022"/>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div className="form-group">
-                        <label>Hingga (Hari/Bulan/Tahun)</label>
-                        <input type="text" className="form-control" placeholder="30/12/2022"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Besar Pinjaman</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Nominal Rupiah"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputPassword1">Password</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputFile">File input *optional</label>
-                    <div className="input-group">
-                      <div className="custom-file">
-                        <input type="file" className="custom-file-input" id="exampleInputFile"/>
-                        <label className="custom-file-label" htmlFor="exampleInputFile">Choose file</label>
-                      </div>
-                      <div className="input-group-append">
-                        <span className="input-group-text">Upload</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                    <label className="form-check-label" htmlFor="exampleCheck1">Form yang saya isi sudah saya pastikan sebenar-benarnya,
-                      apabila ada kesalahan pengisian form maka saya bersedia menerima konsekuensinya</label>
-                  </div>
-                </div>
-
-                <div className="card-footer">
-                  <button type="submit" className="btn bg-blue-500 text-white font-bold">Submit</button>
-                </div>
-              </form>
+          <div className="card card-primary max-w-2xl">
+            <div className="card-header">
+              <h3 className="card-title">Quick Example</h3>
             </div>
+            <form>
+              <div className="card-body">
+                <div className="form-group">
+                  <label htmlFor="exampleInputEmail1">Besar Pinjaman</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Nominal Rupiah"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="exampleInputEmail1">Untuk Keperluan</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Isi Form"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="exampleInputEmail1">Angsuran Selama</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Berapa Bulan"
+                  />
+                </div>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <div className="form-group">
+                      <label>Dari (Hari/Bulan/Tahun)</label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="30/12/2022"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="form-group">
+                      <label>Hingga (Hari/Bulan/Tahun)</label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="30/12/2022"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="exampleInputEmail1">Besar Pinjaman</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Nominal Rupiah"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="exampleInputPassword1">Password</label>
+                  <input
+                    type="password"
+                    className="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="exampleInputFile">File input *optional</label>
+                  <div className="input-group">
+                    <div className="custom-file">
+                      <input
+                        type="file"
+                        className="custom-file-input"
+                        id="exampleInputFile"
+                      />
+                      <label
+                        className="custom-file-label"
+                        htmlFor="exampleInputFile"
+                      >
+                        Choose file
+                      </label>
+                    </div>
+                    <div className="input-group-append">
+                      <span className="input-group-text">Upload</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="form-check">
+                  <input
+                    type="checkbox"
+                    className="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label className="form-check-label" htmlFor="exampleCheck1">
+                    Form yang saya isi sudah saya pastikan sebenar-benarnya,
+                    apabila ada kesalahan pengisian form maka saya bersedia
+                    menerima konsekuensinya
+                  </label>
+                </div>
+              </div>
+
+              <div className="card-footer">
+                <button
+                  type="submit"
+                  className="btn bg-blue-500 text-white font-bold"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
           {/* <div className="flex gap-5">
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
               Pinjaman
@@ -329,5 +387,5 @@ export default function Pinjaman()
         </div>
       </div>
     </>
-  )
+  );
 }

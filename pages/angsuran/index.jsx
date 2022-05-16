@@ -2,11 +2,10 @@ import Link from "next/link";
 import Head from "next/head";
 // import '../styles/adminlte.min.css';
 
-export default function Angsuran()
-{
-  return(
-<>
-    {/* <Head>
+export default function Angsuran() {
+  return (
+    <>
+      {/* <Head>
         <link rel="stylesheet" href="../styles/adminlte.min.css"/>
     </Head> */}
 
@@ -36,26 +35,31 @@ export default function Angsuran()
 
           <ul className="space-y-2 tracking-wide mt-8">
             <li>
-              <Link
-                href="/"
-                aria-label="dashboard"
-                className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
-              >
-                <svg className="-ml-1 h-6 w-6" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M6 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8ZM6 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-1Z"
-                    className="fill-current text-cyan-400 dark:fill-slate-600"
-                  ></path>
-                  <path
-                    d="M13 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8Z"
-                    className="fill-current text-cyan-200 group-hover:text-cyan-300"
-                  ></path>
-                  <path
-                    d="M13 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1Z"
-                    className="fill-current group-hover:text-sky-300"
-                  ></path>
-                </svg>
-                <span className="-mr-1 font-medium">Dashboards</span>
+              <Link href="/">
+                <a
+                  aria-label="dashboard"
+                  className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
+                >
+                  <svg
+                    className="-ml-1 h-6 w-6"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M6 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8ZM6 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-1Z"
+                      className="fill-current text-cyan-400 dark:fill-slate-600"
+                    ></path>
+                    <path
+                      d="M13 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8Z"
+                      className="fill-current text-cyan-200 group-hover:text-cyan-300"
+                    ></path>
+                    <path
+                      d="M13 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1Z"
+                      className="fill-current group-hover:text-sky-300"
+                    ></path>
+                  </svg>
+                  <span className="-mr-1 font-medium">Dashboards</span>
+                </a>
               </Link>
             </li>
             {/* <li>
@@ -251,63 +255,119 @@ export default function Angsuran()
         </div>
 
         <div className="px-6 pt-6 2xl:container">
-        <div className="card card-primary max-w-2xl">
-        <div className="card-header">
-                <h3 className="card-title">Angsuran</h3>
-              </div>
-              <form className="form-horizontal">
-                <div className="card-body">
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">No Transaksi</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="TGA801831287361287683" disabled/>
-                    </div>
-                  </div>
-                  <div className="form-group row">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Tanggal</label>
-                    <div className="col-sm-10">
-                      <input type="password" className="form-control" id="inputPassword3" placeholder="24/12/2020"/>
-                    </div>
-                  </div>
-                  <div className="form-group row">
-                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Nominal</label>
-                    <div className="col-sm-10">
-                      <input type="text" className="form-control" placeholder="Nominal Rupiah"/>
-                    </div>
-                  </div>
-                  <div className="form-group row">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
-                    <div className="col-sm-10">
-                      <input type="password" className="form-control" id="inputPassword3" placeholder="Password"/>
-                    </div>
-                  </div>
-                  <div className="form-group row">
-                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Angsuran Ke</label>
-                    <div className="col-4">
-                      <select className="custom-select">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="form-group row">
-                      <div className="form-check">
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                        <label className="form-check-label" htmlFor="exampleCheck1">Form yang diisi sudah sesuai</label>
-                      </div>
-                  </div>
-                </div>
-
-                <div className="card-footer">
-                  <button type="submit" className="btn bg-blue-500 text-white font-bold">Submit</button>
-                  <button type="submit" className="btn btn-default float-right">Cancel</button>
-                </div>
-
-              </form>
+          <div className="card card-primary max-w-2xl">
+            <div className="card-header">
+              <h3 className="card-title">Angsuran</h3>
             </div>
+            <form className="form-horizontal">
+              <div className="card-body">
+                <div className="form-group row">
+                  <label
+                    htmlFor="inputEmail3"
+                    className="col-sm-2 col-form-label"
+                  >
+                    No Transaksi
+                  </label>
+                  <div className="col-sm-10">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="TGA801831287361287683"
+                      disabled
+                    />
+                  </div>
+                </div>
+                <div className="form-group row">
+                  <label
+                    htmlFor="inputPassword3"
+                    className="col-sm-2 col-form-label"
+                  >
+                    Tanggal
+                  </label>
+                  <div className="col-sm-10">
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="inputPassword3"
+                      placeholder="24/12/2020"
+                    />
+                  </div>
+                </div>
+                <div className="form-group row">
+                  <label
+                    htmlFor="inputEmail3"
+                    className="col-sm-2 col-form-label"
+                  >
+                    Nominal
+                  </label>
+                  <div className="col-sm-10">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="Nominal Rupiah"
+                    />
+                  </div>
+                </div>
+                <div className="form-group row">
+                  <label
+                    htmlFor="inputPassword3"
+                    className="col-sm-2 col-form-label"
+                  >
+                    Password
+                  </label>
+                  <div className="col-sm-10">
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="inputPassword3"
+                      placeholder="Password"
+                    />
+                  </div>
+                </div>
+                <div className="form-group row">
+                  <label
+                    htmlFor="inputPassword3"
+                    className="col-sm-2 col-form-label"
+                  >
+                    Angsuran Ke
+                  </label>
+                  <div className="col-4">
+                    <select className="custom-select">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="form-group row">
+                  <div className="form-check">
+                    <input
+                      type="checkbox"
+                      className="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label className="form-check-label" htmlFor="exampleCheck1">
+                      Form yang diisi sudah sesuai
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card-footer">
+                <button
+                  type="submit"
+                  className="btn bg-blue-500 text-white font-bold"
+                >
+                  Submit
+                </button>
+                <button type="submit" className="btn btn-default float-right">
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
           {/* <div className="flex gap-5">
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
               Pinjaman
@@ -322,5 +382,5 @@ export default function Angsuran()
         </div>
       </div>
     </>
-  )
+  );
 }
