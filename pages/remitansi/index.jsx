@@ -252,7 +252,122 @@ export default function Remitansi()
 
         <div className="px-6 pt-6 2xl:container">
         <div className="card card-primary max-w-2xl">
+        <div className="card-header">
+                <h3 className="card-title">Remitansi</h3>
+              </div>
+              <form className="form-horizontal">
+                <div className="card-body">
 
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">No. ID/Passport</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="TGA80183128736128" />
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                      <div className="form-check">
+                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                        <label className="form-check-label" htmlFor="exampleCheck1">Saya Warga Negara xxxx</label>
+                      </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Dari Rekening Bank</label>
+                    <div className="col-4">
+                      <select className="custom-select">
+                        <option>BNI</option>
+                        <option>Mandiri</option>
+                        <option>BJB</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Nomor Yang Bisa Dihubungi</label>
+                    <div className="col-sm-10">
+                      <input type="password" className="form-control" id="inputPassword3" placeholder="08xxxxxxxxxx"/>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Nominal Uang</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="Nominal Rupiah"/>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Atau Setara dengan</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="Nominal Mata Uang Asing"/>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Negara Penerima</label>
+                    <div className="col-4">
+                      <select className="custom-select">
+                        <option>Australia</option>
+                        <option>Singapura</option>
+                        <option>Malaysia</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Rekening Bank Penerima</label>
+                    <div className="col-4">
+                      <select className="custom-select">
+                        <option>BRUSKY</option>
+                        <option>LINKY</option>
+                        <option>AUSSIE</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Swift Code</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="Swift Codes"/>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">No. ID/Passport Penerima</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="TGA80183128736128" />
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                      <div className="form-check">
+                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                        <label className="form-check-label" htmlFor="exampleCheck1">Penerima merupakan Warga Negara xxxx</label>
+                      </div>
+                  </div>
+
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
+                    <div className="col-sm-10">
+                      <input type="password" className="form-control" id="inputPassword3" placeholder="Password"/>
+                    </div>
+                  </div>
+
+                  <div className="form-group row">
+                      <div className="form-check">
+                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                        <label className="form-check-label" htmlFor="exampleCheck1">Form yang diisi sudah sesuai</label>
+                      </div>
+                  </div>
+                </div>
+
+                <div className="card-footer">
+                  <button type="submit" className="btn bg-blue-500 text-white font-bold">Submit</button>
+                  <button type="submit" className="btn btn-default float-right">Cancel</button>
+                </div>
+
+              </form>
             </div>
           {/* <div className="flex gap-5">
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
