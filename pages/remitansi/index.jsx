@@ -2,7 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 // import '../styles/adminlte.min.css';
 
-export default function Pinjaman()
+export default function Remitansi()
 {
   return(
 <>
@@ -252,68 +252,7 @@ export default function Pinjaman()
 
         <div className="px-6 pt-6 2xl:container">
         <div className="card card-primary max-w-2xl">
-              <div className="card-header">
-                <h3 className="card-title">Quick Example</h3>
-              </div>
-              <form>
-                <div className="card-body">
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Besar Pinjaman</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Nominal Rupiah"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Untuk Keperluan</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Isi Form"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Angsuran Selama</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Berapa Bulan"/>
-                  </div>
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div className="form-group">
-                        <label>Dari (Hari/Bulan/Tahun)</label>
-                        <input type="text" className="form-control" placeholder="30/12/2022"/>
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div className="form-group">
-                        <label>Hingga (Hari/Bulan/Tahun)</label>
-                        <input type="text" className="form-control" placeholder="30/12/2022"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Besar Pinjaman</label>
-                    <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Nominal Rupiah"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputPassword1">Password</label>
-                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputFile">File input *optional</label>
-                    <div className="input-group">
-                      <div className="custom-file">
-                        <input type="file" className="custom-file-input" id="exampleInputFile"/>
-                        <label className="custom-file-label" htmlFor="exampleInputFile">Choose file</label>
-                      </div>
-                      <div className="input-group-append">
-                        <span className="input-group-text">Upload</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                    <label className="form-check-label" htmlFor="exampleCheck1">Form yang saya isi sudah saya pastikan sebenar-benarnya,
-                      apabila ada kesalahan pengisian form maka saya bersedia menerima konsekuensinya</label>
-                  </div>
-                </div>
 
-                <div className="card-footer">
-                  <button type="submit" className="btn bg-blue-500 text-white font-bold">Submit</button>
-                </div>
-              </form>
             </div>
           {/* <div className="flex gap-5">
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">

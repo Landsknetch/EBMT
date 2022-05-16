@@ -10,130 +10,130 @@ export default function Angsuran()
         <link rel="stylesheet" href="../styles/adminlte.min.css"/>
     </Head> */}
 
-      <aside className="ml-[-100%] fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]">
+      <aside classNameName="ml-[-100%] fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]">
         <div>
-          <div className="-mx-6 px-6 py-4">
+          <div classNameName="-mx-6 px-6 py-4">
             <a href="#" title="home">
               <img
                 src="https://tailus.io/sources/blocks/stats-cards/preview/images/logo.svg"
-                className="w-32"
+                classNameName="w-32"
                 alt="tailus logo"
               />
             </a>
           </div>
 
-          <div className="mt-8 text-center">
+          <div classNameName="mt-8 text-center">
             <img
               src="https://tailus.io/sources/blocks/stats-cards/preview/images/second_user.webp"
               alt=""
-              className="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28"
+              classNameName="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28"
             />
-            <h5 className="hidden mt-4 text-xl font-semibold text-gray-600 lg:block">
+            <h5 classNameName="hidden mt-4 text-xl font-semibold text-gray-600 lg:block">
               Cynthia J. Watts
             </h5>
-            <span className="hidden text-gray-400 lg:block">Admin</span>
+            <span classNameName="hidden text-gray-400 lg:block">Admin</span>
           </div>
 
-          <ul className="space-y-2 tracking-wide mt-8">
+          <ul classNameName="space-y-2 tracking-wide mt-8">
             <li>
               <a
                 href="#"
                 aria-label="dashboard"
-                className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
+                classNameName="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
               >
-                <svg className="-ml-1 h-6 w-6" viewBox="0 0 24 24" fill="none">
+                <svg classNameName="-ml-1 h-6 w-6" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M6 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8ZM6 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-1Z"
-                    className="fill-current text-cyan-400 dark:fill-slate-600"
+                    classNameName="fill-current text-cyan-400 dark:fill-slate-600"
                   ></path>
                   <path
                     d="M13 8a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2V8Z"
-                    className="fill-current text-cyan-200 group-hover:text-cyan-300"
+                    classNameName="fill-current text-cyan-200 group-hover:text-cyan-300"
                   ></path>
                   <path
                     d="M13 15a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-1Z"
-                    className="fill-current group-hover:text-sky-300"
+                    classNameName="fill-current group-hover:text-sky-300"
                   ></path>
                 </svg>
-                <span className="-mr-1 font-medium">Dashboards</span>
+                <span classNameName="-mr-1 font-medium">Dashboards</span>
               </a>
             </li>
             {/* <li>
-                <a href="#" className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path className="fill-current text-gray-300 group-hover:text-cyan-300" fillRule="evenodd" d="M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z" clipRule="evenodd" />
-                        <path className="fill-current text-gray-600 group-hover:text-cyan-600" d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z" />
+                <a href="#" classNameName="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" classNameName="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path classNameName="fill-current text-gray-300 group-hover:text-cyan-300" fillRule="evenodd" d="M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z" clipRule="evenodd" />
+                        <path classNameName="fill-current text-gray-600 group-hover:text-cyan-600" d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z" />
                     </svg>
-                    <span className="group-hover:text-gray-700">Categories</span>
+                    <span classNameName="group-hover:text-gray-700">Categories</span>
                 </a>
             </li> */}
             <li>
               <a
                 href="#"
-                className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
+                classNameName="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  classNameName="h-5 w-5"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
                   <path
-                    className="fill-current text-gray-600 group-hover:text-cyan-600"
+                    classNameName="fill-current text-gray-600 group-hover:text-cyan-600"
                     fillRule="evenodd"
                     d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z"
                     clipRule="evenodd"
                   />
                   <path
-                    className="fill-current text-gray-300 group-hover:text-cyan-300"
+                    classNameName="fill-current text-gray-300 group-hover:text-cyan-300"
                     d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
                   />
                 </svg>
-                <span className="group-hover:text-gray-700">Reports</span>
+                <span classNameName="group-hover:text-gray-700">Reports</span>
               </a>
             </li>
             {/* <li>
-                <a href="#" className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path className="fill-current text-gray-600 group-hover:text-cyan-600" d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
-                        <path className="fill-current text-gray-300 group-hover:text-cyan-300" d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
+                <a href="#" classNameName="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" classNameName="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path classNameName="fill-current text-gray-600 group-hover:text-cyan-600" d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
+                        <path classNameName="fill-current text-gray-300 group-hover:text-cyan-300" d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
                     </svg>
-                    <span className="group-hover:text-gray-700">Other data</span>
+                    <span classNameName="group-hover:text-gray-700">Other data</span>
                 </a>
             </li> */}
             <li>
               <a
                 href="#"
-                className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
+                classNameName="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  classNameName="h-5 w-5"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
                   <path
-                    className="fill-current text-gray-300 group-hover:text-cyan-300"
+                    classNameName="fill-current text-gray-300 group-hover:text-cyan-300"
                     d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"
                   />
                   <path
-                    className="fill-current text-gray-600 group-hover:text-cyan-600"
+                    classNameName="fill-current text-gray-600 group-hover:text-cyan-600"
                     fillRule="evenodd"
                     d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="group-hover:text-gray-700">Finance</span>
+                <span classNameName="group-hover:text-gray-700">Finance</span>
               </a>
             </li>
           </ul>
         </div>
 
-        <div className="px-6 -mx-6 pt-4 flex justify-between items-center border-t">
-          <button className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
+        <div classNameName="px-6 -mx-6 pt-4 flex justify-between items-center border-t">
+          <button classNameName="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              classNameName="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -145,21 +145,21 @@ export default function Angsuran()
                 d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
               />
             </svg>
-            <span className="group-hover:text-gray-700">Logout</span>
+            <span classNameName="group-hover:text-gray-700">Logout</span>
           </button>
         </div>
       </aside>
 
-      <div className="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
-        <div className="sticky z-10 top-0 h-16 border-b bg-white lg:py-2.5">
-          <div className="px-6 flex items-center justify-between space-x-4 2xl:container">
-            <h5 hidden className="text-2xl text-gray-600 font-medium lg:block">
+      <div classNameName="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
+        <div classNameName="sticky z-10 top-0 h-16 border-b bg-white lg:py-2.5">
+          <div classNameName="px-6 flex items-center justify-between space-x-4 2xl:container">
+            <h5 hidden classNameName="text-2xl text-gray-600 font-medium lg:block">
               Dashboard
             </h5>
-            <button className="w-12 h-16 -mr-2 border-r lg:hidden">
+            <button classNameName="w-12 h-16 -mr-2 border-r lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 my-auto"
+                classNameName="h-6 w-6 my-auto"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -172,13 +172,13 @@ export default function Angsuran()
                 />
               </svg>
             </button>
-            <div className="flex space-x-4">
-              <div hidden className="md:block">
-                <div className="relative flex items-center text-gray-400 focus-within:text-cyan-400">
-                  <span className="absolute left-4 h-6 flex items-center pr-3 border-r border-gray-300">
+            <div classNameName="flex space-x-4">
+              <div hidden classNameName="md:block">
+                <div classNameName="relative flex items-center text-gray-400 focus-within:text-cyan-400">
+                  <span classNameName="absolute left-4 h-6 flex items-center pr-3 border-r border-gray-300">
                     <svg
                       xmlns="http://ww50w3.org/2000/svg"
-                      className="w-4 fill-current"
+                      classNameName="w-4 fill-current"
                       viewBox="0 0 35.997 36.004"
                     >
                       <path
@@ -193,18 +193,18 @@ export default function Angsuran()
                     name="leadingIcon"
                     id="leadingIcon"
                     placeholder="Search here"
-                    className="w-full pl-14 pr-4 py-2.5 rounded-xl text-sm text-gray-600 outline-none border border-gray-300 focus:border-cyan-300 transition"
+                    classNameName="w-full pl-14 pr-4 py-2.5 rounded-xl text-sm text-gray-600 outline-none border border-gray-300 focus:border-cyan-300 transition"
                   />
                 </div>
               </div>
 
               <button
                 aria-label="search"
-                className="w-10 h-10 rounded-xl border bg-gray-100 focus:bg-gray-100 active:bg-gray-200 md:hidden"
+                classNameName="w-10 h-10 rounded-xl border bg-gray-100 focus:bg-gray-100 active:bg-gray-200 md:hidden"
               >
                 <svg
                   xmlns="http://ww50w3.org/2000/svg"
-                  className="w-4 mx-auto fill-current text-gray-600"
+                  classNameName="w-4 mx-auto fill-current text-gray-600"
                   viewBox="0 0 35.997 36.004"
                 >
                   <path
@@ -216,11 +216,11 @@ export default function Angsuran()
               </button>
               <button
                 aria-label="chat"
-                className="w-10 h-10 rounded-xl border bg-gray-100 focus:bg-gray-100 active:bg-gray-200"
+                classNameName="w-10 h-10 rounded-xl border bg-gray-100 focus:bg-gray-100 active:bg-gray-200"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 m-auto text-gray-600"
+                  classNameName="h-5 w-5 m-auto text-gray-600"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -235,11 +235,11 @@ export default function Angsuran()
               </button>
               <button
                 aria-label="notification"
-                className="w-10 h-10 rounded-xl border bg-gray-100 focus:bg-gray-100 active:bg-gray-200"
+                classNameName="w-10 h-10 rounded-xl border bg-gray-100 focus:bg-gray-100 active:bg-gray-200"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 m-auto text-gray-600"
+                  classNameName="h-5 w-5 m-auto text-gray-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -250,41 +250,41 @@ export default function Angsuran()
           </div>
         </div>
 
-        <div className="px-6 pt-6 2xl:container">
-        <div className="card card-primary max-w-2xl">
-        <div class="card-header">
-                <h3 class="card-title">Angsuran</h3>
+        <div classNameName="px-6 pt-6 2xl:container">
+        <div classNameName="card card-primary max-w-2xl">
+        <div className="card-header">
+                <h3 className="card-title">Angsuran</h3>
               </div>
-              <form class="form-horizontal">
-                <div class="card-body">
-                  <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">No Transaksi</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" placeholder="TGA801831287361287683" disabled/>
+              <form className="form-horizontal">
+                <div className="card-body">
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">No Transaksi</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="TGA801831287361287683" disabled/>
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Tanggal</label>
-                    <div class="col-sm-10">
-                      <input type="password" class="form-control" id="inputPassword3" placeholder="24/12/2020"/>
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Tanggal</label>
+                    <div className="col-sm-10">
+                      <input type="password" className="form-control" id="inputPassword3" placeholder="24/12/2020"/>
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Nominal</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" placeholder="Nominal Rupiah"/>
+                  <div className="form-group row">
+                    <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Nominal</label>
+                    <div className="col-sm-10">
+                      <input type="text" className="form-control" placeholder="Nominal Rupiah"/>
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                    <div class="col-sm-10">
-                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password"/>
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
+                    <div className="col-sm-10">
+                      <input type="password" className="form-control" id="inputPassword3" placeholder="Password"/>
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Angsuran Ke</label>
-                    <div class="col-4">
-                      <select class="custom-select">
+                  <div className="form-group row">
+                    <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Angsuran Ke</label>
+                    <div className="col-4">
+                      <select className="custom-select">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -293,29 +293,29 @@ export default function Angsuran()
                       </select>
                     </div>
                   </div>
-                  <div class="form-group row">
-                      <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                        <label class="form-check-label" for="exampleCheck1">Form yang diisi sudah sesuai</label>
+                  <div className="form-group row">
+                      <div className="form-check">
+                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                        <label className="form-check-label" htmlFor="exampleCheck1">Form yang diisi sudah sesuai</label>
                       </div>
                   </div>
                 </div>
 
-                <div class="card-footer">
-                  <button type="submit" class="btn bg-blue-500 text-white font-bold">Submit</button>
-                  <button type="submit" class="btn btn-default float-right">Cancel</button>
+                <div className="card-footer">
+                  <button type="submit" className="btn bg-blue-500 text-white font-bold">Submit</button>
+                  <button type="submit" className="btn btn-default float-right">Cancel</button>
                 </div>
 
               </form>
             </div>
-          {/* <div className="flex gap-5">
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
+          {/* <div classNameName="flex gap-5">
+            <button classNameName="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
               Pinjaman
             </button>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
+            <button classNameName="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
               Remitansi
             </button>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
+            <button classNameName="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
               Angsuran
             </button>
           </div> */}
