@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -247,23 +248,23 @@ export default function Home() {
 
         <div className="px-6 pt-6 2xl:container">
           <div className="flex gap-5">
-            <a href="/pinjaman">
+            <Link href="/pinjaman">
               <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
                 Pinjaman
               </button>
-            </a>
+            </Link>
             
-            <a href="/remitansi">
+            <Link href="/remitansi">
               <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
                 Remitansi
               </button>
-            </a>
+            </Link>
             
-            <a href="/angsuran">
+            <Link href="/angsuran">
               <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-bold">
                 Angsuran
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

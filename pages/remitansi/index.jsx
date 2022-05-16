@@ -36,7 +36,7 @@ export default function Remitansi()
 
           <ul className="space-y-2 tracking-wide mt-8">
             <li>
-              <a
+              <Link
                 href="/"
                 aria-label="dashboard"
                 className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-sky-600 to-cyan-400"
@@ -56,7 +56,7 @@ export default function Remitansi()
                   ></path>
                 </svg>
                 <span className="-mr-1 font-medium">Dashboards</span>
-              </a>
+              </Link>
             </li>
             {/* <li>
                 <a href="#" className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-600 group">
